@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BS : Forms</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="get">
+            <div  class="mb=3 mt-3">
+                <label for="Fname">First Name</label>
+                <input type="text" name="fname" placeholder="Enter your name" class="form-control" required/>
+
+            </div>
+
+            <div  class="mb=3 mt-3">
+                <label for="Fname">Last Name</label>
+                <input type="text" name="lname" placeholder="Enter your last name" class="form-control" readonly/>
+
+            </div>
+
+            <div  class="mb-3 mt-3">
+                <label for="Fname">Email ID</label>
+                <input type="text" name="fname" placeholder="E-mail" class="form-control" required/>
+
+            </div>
+
+            <div class="mb-3">
+                <input class="form-check-input" type="radio" id="rad1" name="op1">
+                <label class="form-check-label">veg</label>
+            </div>
+
+            <div class="form-check form-switch mb-3">
+                <input class="form-check-input" type="checkbox" id="on" value="yes">
+                <label class="form-check-label">Switch on Fan</label>
+
+            </div>
+
+            <div class="mb-3">
+                <label for="rate your self" class="form-label">Movie rating</label>
+                <input type="range" class="form-range" id="movieRating" min="0" max="5" step="1">
+
+            </div>
+
+            <div class="mb-3">
+                <select class="form-select">
+                    <option>op1</option>
+                    <option>op2</option>
+                    <option>op3</option>
+
+                </select>
+
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="mobile" placeholder="Enter Mobile Number"/>
+                <label for="mobile">User name</label>
+
+            </div>
+
+            <div class="form-floating mb-3">
+                <input type="text" class="form-control" name="mobile" placeholder="Enter Mobile Number"/>
+                <label for="mobile">Pass word</label>
+            </div>
+
+            <div class="mb-3 form-floating">
+                <textarea type="text" class="form-control" placeholder="Add your comment"></textarea>
+                <label for="comment"> Add your comment</label>
+
+            </div>
+
+            <div class="form-check mb-3">
+                <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">please accept our Terms and conditions
+                </label>
+
+            </div>
+            <button type="submit" class="btn btn-primary">submit</button>
+        </form>
+
+    </div>
+      
+</body>
+</html>

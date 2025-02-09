@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS : Box Model</title>
+    <style>
+        .box{
+            background-color:#937b7bf4;
+            color:rgb(from color r g b);
+            border:3px red solid;
+            
+            /*padding : It will create Empty space in elements  on all sides*/
+            /* padding:50px; */
+            /* padding-top:40px;
+            padding-bottom:30px;
+            padding-left:10px;
+            padding-right:60px; */
+
+            /*padding shorthand: top, right, bottom, left*/
+             padding:10px 40px 10px 40px;
+
+             /* equal size: top/bottom and left/right */
+             padding:30px 40px;
+
+             /*Margin*/
+             margin:20px;
+             margin-top:20px;
+             margin-left:30px;
+             margin-bottom:30px ;
+             margin-right:100px;
+
+             /* short hand : top, right, bottom, left */
+             margin:10px 30px 40px 5px;
+
+             /*margin:20px 30px;*/
+
+        }
+
+        .box h3{
+            padding-bottom:20px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+
+    <!--
+        Border:
+        padding: It will create Empty space inside the element. 
+        Margin: It will create Empty space Around the Element.
+        How to check box model in Developer tool.
+    -->
+    <div class="box">
+        <h3>Box one</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem inventore nesciunt rem commodi debitis delectus iste, eum eius pariatur facilis consequuntur obcaecati, laborum ipsam dolore in vel aliquam repellendus numquam.</p>
+    </div>
+    <div class="box">
+        <h3>Box two</h3>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis itaque beatae tempore, alias ut dolorum modi, sint nesciunt rerum distinctio iure dicta aspernatur nemo. Cumque perspiciatis magnam rerum delectus quisquam?</p>
+
+    </div>
+    
+</body>
+</html>

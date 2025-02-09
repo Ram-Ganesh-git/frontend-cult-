@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS : Forms</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+            box-sizing:border-box;
+
+        }
+        body{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color:rgb(56, 56, 87);
+            color:white;
+            line-height:1.8;
+
+        }
+
+        a{
+            text-decoration:none;
+        }
+
+        #container{
+            margin: 30px auto;
+            max-width:400px;
+            padding:20px;
+
+        }
+        .form-wrap{
+            background:#ffff;
+            color:#333;
+            padding:15px;
+
+        }
+
+        .form-wrap h1,.form-wrap p{
+            text-align:center;
+        }
+        
+
+        .form-wrap .form-group{
+            margin-top:15px;
+
+        }
+
+        .form-wrap .form-group label{
+            color:#666;
+            display:block;
+    
+        }
+
+        .form-wrap .form-group input{
+            width:100%;
+            padding:10px;
+            border:2px #ddd solid;
+            border-radius:5px;
+
+        }
+        .form-wrap button{
+            width:100%;
+            padding:10px;
+            margin-top:20px;
+            background-color:rgb(62, 106, 62);
+            cursor:pointer;
+            color:white;
+            border:none;
+            border-radius: 5px;
+
+        }
+
+        .form-wrap button:hover{
+            background:rgb(58, 80, 58);
+
+        }
+
+        .form-wrap .bottom-text{
+            margin-top:20px;
+            font-size:15px;
+
+        }
+
+        footer a{
+            color:rgb(67, 179, 67);
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="form-wrap">
+            <h1>sign up</h1>
+            <p>It's free and only take a minite</p>
+            <form action="send.php" method="post">
+                <div class="form-group">
+                    <label for="first-name">first Name</label>
+                    <input type="text" value="" name="fname" id="fname">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">last Name</label>
+                    <input type="text"  value="" name="lname" id="lname">
+                </div>
+                <div class="form-group">
+                    <label for="first-name">Email</label>
+                    <input type="text" value="" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="first-name">password</label>
+                    <input type="text" value="" name="password" id="password">
+                </div>
+                <button type="submit" class="btn">Sign in</button>
+                <p class="bottom-text">
+                    By clicking the sign up form, you agree our <a href="#">terms & condititions</a> & <a href="#">privacy policy</a> 
+                </p>
+                
+            </form>
+        </div>
+        <footer>
+            <p>Already have an Account ? <a href="#">Login Here</a></a></p>
+        </footer>
+
+    </div>
+    
+    
+</body>
+</html>

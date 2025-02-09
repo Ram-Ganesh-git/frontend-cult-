@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel website : contact us page</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <!--Header starts here-->
+    <header>
+        <nav id="navbar">
+            <div class="container">
+                <h1 class="logo"><a href="home.html">HBT</a></h1>
+                <ul>
+                    <li><a  class="current"href="home.html">Home</a></li>
+                    <li><a href="aboutpage.html">About</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!--contact us page-->
+        <div id="contact-container">
+            <h1><span class="text-primary">Contact</span> US</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form action="send.php" method="get">
+                <div class="contact-form">
+                    <label for="fname">Name</label>
+                    <input type="text" value="" name="fname" id="fname"/>
+                </div>
+                <div class="contact-form">
+                    <label for="fname">Email</label>
+                    <input type="email" value="" name="email" id="email"/>
+                </div>
+                <div class="contact-form">
+                    <label for="fname">Message</label>
+                    <textarea name="message" value="" id="message" rows="6" column="6"></textarea><br><br>
+                    <button type="button" class="btn">Submit</button>
+                </div>
+
+            </form>
+        </div>
+        <footer id="footer-section">  
+            <p><p>Hotel BT @ 2024, All Rights Reserved</p>
+        </footer>
+
+    
+</body>
+</html>
